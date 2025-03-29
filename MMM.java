@@ -1,10 +1,11 @@
 public class MMM {
     public static void main(String[] args) {
-        int a = 5, b = 11;
-        System.out.println(square(a + b));
+        int a = 12, b = 3;
         System.out.println(sum(a, b));
         System.out.println(sqrt(a + b));
         minus(a, b);
+        System.out.println(square(a + b));
+        exp(a, b);
     }
 
     private static int sum(int a, int b) {
@@ -21,5 +22,9 @@ public class MMM {
 
     private static double square(int a) {
         return (a * a);
+    }
+
+    private static void exp(int a, int b) {
+        System.out.println(Math.pow(a, b));
     }
 }
