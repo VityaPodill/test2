@@ -3,6 +3,6 @@ public class MMM {
         int a = 1, b = 2;
         System.out.println(a + b);
         int c = 33, d = 44, e = 5,
-                f = 6;
+                f = 6,g=7;
     }
 }
