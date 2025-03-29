@@ -2,10 +2,7 @@ public class MMM {
     public static void main(String[] args) {
         System.out.println("fffsssssssf");
         int a = 5, b = 11, c;
-        c = sum(a, b);
-        System.out.println(c);
-        minus(a, b);
-        System.out.println(c + " " + sqrt(c));
+        System.out.println(square(a + b));
     }
 
     private static int sum(int a, int b) {
@@ -18,5 +15,9 @@ public class MMM {
 
     private static double sqrt(int a) {
         return Math.sqrt(a);
+    }
+
+    private static double square(int a) {
+        return (a * a);
     }
 }
