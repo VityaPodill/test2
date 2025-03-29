@@ -5,15 +5,18 @@ public class MMM {
         c = sum(a, b);
         System.out.println(c);
         minus(a, b);
+        System.out.println(c + " " + sqrt(c));
     }
 
     private static int sum(int a, int b) {
-        return a + 2 * b;
-
-
+        return a + b;
     }
 
     public static void minus(int a, int b) {
         System.out.println(Math.abs(a - b));
+    }
+
+    private static double sqrt(int a) {
+        return Math.sqrt(a);
     }
 }
