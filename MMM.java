@@ -1,8 +1,10 @@
 public class MMM {
     public static void main(String[] args) {
-        System.out.println("fffsssssssf");
-        int a = 5, b = 11, c;
+        int a = 5, b = 11;
         System.out.println(square(a + b));
+        System.out.println(sum(a, b));
+        System.out.println(sqrt(a + b));
+        minus(a, b);
     }
 
     private static int sum(int a, int b) {
