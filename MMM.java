@@ -7,11 +7,9 @@ public class MMM {
         return a+b;
 
 
+    }
 
-
-
-
-
-
+    public static void minus(int a, int b) {
+        System.out.println(Math.abs(a - b));
     }
 }
