@@ -7,5 +7,7 @@ public class MMM {
                 j = 9, k = 10;
         System.out.println(f + g + h + j + k);
         System.out.println(c + d + e);
+        System.out.println();
+        System.out.println();
     }
 }
