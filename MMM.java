@@ -4,5 +4,6 @@ public class MMM {
         System.out.println(a + b);
         int c = 33, d = 44, e = 5,
                 f = 6, g = 7, h = 888,j=9,k=10;
+        f=555
     }
 }
