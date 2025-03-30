@@ -6,5 +6,6 @@ public class MMM {
                 f = 6, g = 7, h = 888,
                 j = 9, k = 10;
         System.out.println(f + g + h + j + k);
+        System.out.println(c + d + e);
     }
 }
