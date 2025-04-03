@@ -11,3 +11,15 @@ public class MMM {
         System.out.println();
     }
 }
+
+class FF {
+    public static void main(String[] args) {
+
+
+        String a =
+                "",
+                b =
+                        "";
+        System.out.println(a.equals(b));
+    }
+}
